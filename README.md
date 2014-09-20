@@ -29,8 +29,9 @@ At this point, the files from the fullcalendar project are in your asset pipelin
 
     *= require fullcalendar
 
-And in your application.js:
+And in your application.js, add the following line but be aware that if you use momentjs-rails, you should put this line after momentjs:
 
+    //= require moment
     //= require fullcalendar
 
 You can also include the fullcalendar.print file in your css manifest like this:
